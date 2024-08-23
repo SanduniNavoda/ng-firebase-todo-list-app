@@ -1,0 +1,23 @@
+<app-app-bar style="z-index: 100; position: relative;"></app-app-bar>
+<form class="flex p-2 pb-0 justify-center items-center gap-1">
+
+  <mat-form-field appearance="fill" class="flex-grow mt-2">
+    <mat-label>Add New Task</mat-label>
+    <input #txt matInput [(ngModel)]="description" name="description" placeholder="Eg. Grocieries">
+  </mat-form-field>
+
+  <button
+    mat-button (click)="addTask(txt)">ADD
+  </button>
+</form>
+<div class="mt-2 px-2">
+  @for (task of taskList; track  task._id){
+    <div class="hover:bg-gray-100 rounded flex justify-between">
+      <mat-checkbox (change)="taskService.updateTaskStatus(task)" [checked]="task.completed" class="example-margin" >
+        {{ task.description }}
+      </mat-checkbox>
+      <mat-icon (click)="taskService.removeTask(task)"
+        inline class="!text-2xl pr-2 text-gray-400 cursor-pointer hover:text-red-500 align-self-end" fontIcon="delete"></mat-icon>
+    </div>
+  }
+</div>

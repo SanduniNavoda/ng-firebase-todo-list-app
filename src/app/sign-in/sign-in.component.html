@@ -1,0 +1,19 @@
+<div class="h-dvh flex justify-center items-center bg-gray-100">
+  <section class="bg-white text-center p-9 rounded border border-solid border-gray-300 ">
+    <mat-icon class="text-sky-500 !text-6xl" fontIcon="task_alt" [inline]="true"></mat-icon>
+    <h1 class="!text-3xl">To-Do List</h1>
+    <div class="mb-5">
+      Welcome to To-Do List<br>
+      Please sign in to continue
+    </div>
+    <div class="grid gap-2">
+      <button (click)="authService.signInWithGoogle()" mat-card-image mat-stroked-button>
+        Sign in with Google
+      </button>
+      <button class="!text-black" (click)="authService.signInWithGitHub()" mat-card-image mat-stroked-button>
+        Sign in with GitHub
+      </button>
+    </div>
+
+  </section>
+</div>
