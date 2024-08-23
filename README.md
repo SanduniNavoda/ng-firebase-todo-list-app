@@ -4,10 +4,13 @@ This is a to-do list application built with Angular that allows users to log in 
 
 ## Features
 - **User Authentication**: Log in using Google or GitHub accounts.
+  ![image](https://github.com/user-attachments/assets/09af504c-80e7-43e9-af7f-d8c87c90fe06)
+
 - **Task Management**: Add, update, and delete tasks.
 - **Firestore Integration**: Store and manage tasks in Firestore.
 - **Real-Time Updates**: Tasks are updated in real-time across all devices.
-- **Responsive Design**: The application is fully responsive and works on all devices.
+  ![image](https://github.com/user-attachments/assets/0cd8dfd8-e578-4f00-a391-4414571374d8)
+
 
 ## Access the App
 You can access the deployed application at the following URL:
