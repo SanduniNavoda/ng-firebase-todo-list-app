@@ -26,7 +26,7 @@ To set up this project locally, you need the following tools installed:
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/firebase-todo-list.git
+   https://github.com/SanduniNavoda/ng-firebase-todo-list-app.git
    cd firebase-todo-list
    
 2. **Install the dependencies**:
