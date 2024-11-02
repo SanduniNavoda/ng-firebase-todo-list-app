@@ -1,6 +1,6 @@
 # Firebase To-Do List Application
 
-This is a to-do list application built with Angular that allows users to log in through their Google or GitHub accounts and manage their personal to-do lists. The tasks are stored in Firestore, and the application is deployed on Firebase.
+This is a to-do list application built with Angular that allows users to log in through their Google or GitHub accounts and manage their personal to-do lists. The tasks are stored in Firestore, therefore users can experience real-time task update, and the application is deployed on Firebase.
 
 ## Features
 - **User Authentication**: Log in using Google or GitHub accounts.
@@ -16,6 +16,7 @@ This is a to-do list application built with Angular that allows users to log in 
 You can access the deployed application at the following URL:
 
 [https://ng-firebase-todo-list-37033.web.app](https://ng-firebase-todo-list-37033.web.app)
+If 
 
 ## Developer Guide
 
