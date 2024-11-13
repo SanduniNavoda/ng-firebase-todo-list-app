@@ -1,4 +1,4 @@
-# Firebase To-Do List Application
+# Firebase To-Do List Application [![View Live App](https://img.shields.io/badge/View-Live%20App-blue?style=for-the-badge)](https://ng-firebase-todo-list-37033.web.app)
 
 This is a to-do list application built with Angular that allows users to log in through their Google or GitHub accounts and manage their personal to-do lists. The tasks are stored in Firestore, therefore users can experience real-time task update, and the application is deployed on Firebase.
 
